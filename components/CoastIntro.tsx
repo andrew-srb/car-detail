@@ -114,7 +114,7 @@ export function CoastIntro() {
             animate={{ x: "-8%" }}
             transition={{ duration: DURATION_MS / 1000, ease: "linear" }}
           >
-            <Palm className="h-[72vh] w-auto opacity-90" />
+            <Palm className="h-[26vh] w-auto opacity-90 sm:h-[48vh] md:h-[72vh]" />
           </motion.div>
           <motion.div
             className="pointer-events-none absolute right-[-8%] bottom-[-10%] text-navy"
@@ -122,7 +122,7 @@ export function CoastIntro() {
             animate={{ x: "6%" }}
             transition={{ duration: DURATION_MS / 1000, ease: "linear" }}
           >
-            <Palm className="h-[82vh] w-auto opacity-80" flip />
+            <Palm className="h-[30vh] w-auto opacity-80 sm:h-[56vh] md:h-[82vh]" flip />
           </motion.div>
 
           <motion.div
